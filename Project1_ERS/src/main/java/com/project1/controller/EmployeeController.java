@@ -69,7 +69,7 @@ public class EmployeeController {
 		User newUser = new User(userID, userName, pWord, firstN, lastN, email, employeeID);
 
 		empServ.insertUser(newUser);
-		sendEmail(newUser, "tamtran7236@gmail.com", "Myfriend1");
+		sendEmail(newUser, "annon@gmail.com", "1234");
 
 		return "html/login.html";
 	}
